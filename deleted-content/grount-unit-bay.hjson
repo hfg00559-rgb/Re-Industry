@@ -1,0 +1,37 @@
+{
+  "type": "UnitFactory",
+  "name": "ground-unit-bay",
+  "localizedName": "Ground Unit Bay",
+  "description": "Builds basic units.",
+  "category": "units",
+  "size": 3,
+  "research": "units",
+  "health": 600,
+  "requirements": [
+    {
+      "item": "iron",
+      "amount": 280
+    },
+    {
+      "item": "leadc",
+      "amount": 260
+    }
+  ],
+  "consumePower": 1.5,
+  "plans": [
+    {
+      "unit": "nova",
+      "time": 900,
+      "requirements": [
+        {
+          "item": "iron",
+          "amount": 20
+        },
+        {
+          "item": "leadc",
+          "amount": 25
+        }
+      ]
+    }
+  ]
+}
