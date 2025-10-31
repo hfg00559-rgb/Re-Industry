@@ -1,0 +1,17 @@
+{
+name: steam
+localizedName: Steam
+description: Boiled Water :p
+cost: 3.0
+color: c16c5b
+research: dirty-water
+gas: true
+type: liquid
+temperature: 0.10
+viscosity: 0.90
+flammability: 2
+explosiveness: 0
+heatCapacity: 1
+color: c1c3d4
+lightColor: f4f4f4
+}

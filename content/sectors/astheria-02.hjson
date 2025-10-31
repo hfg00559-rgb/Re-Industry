@@ -1,0 +1,23 @@
+planet: astheria
+localizedName: Attack
+sector: 15
+difficulty: 3
+enemyBase: true
+captureWave: 5
+research: {
+  parent: astheria-01
+  objectives: [
+    {
+      type: SectorComplete
+      preset: astheria-01
+    }
+  ]
+}
+rules: {
+  startingItems: [
+    copperc/120
+    iron/80
+    coalc/60
+    leadc/40
+  ]
+}

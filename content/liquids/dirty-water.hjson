@@ -1,0 +1,16 @@
+{
+name: dirty-water
+localizedName: Dirty Water
+description: Not for drink lol :p
+cost: 3.0
+color: 394874
+research: liquids
+gas: false
+type: liquid
+temperature: 0.10
+viscosity: 0.90
+flammability: 2
+explosiveness: 0
+heatCapacity: 1
+lightColor: 394874
+}

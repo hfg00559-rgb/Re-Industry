@@ -1,0 +1,7 @@
+research: {
+  planet: astheria
+  root: true
+  name: Astheria
+  requiresUnlock: false
+}
+alwaysUnlocked: true

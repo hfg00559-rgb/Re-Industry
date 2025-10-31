@@ -1,0 +1,15 @@
+{
+type: material
+name: iron
+localizedName: iron
+description: Just Iron
+cost: 3.0
+color: 3c3c4f
+research: copperc
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+}

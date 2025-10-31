@@ -1,0 +1,4 @@
+research: {
+  parent: landing
+}
+alwaysUnlocked: true

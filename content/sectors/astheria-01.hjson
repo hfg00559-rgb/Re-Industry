@@ -1,0 +1,23 @@
+planet: astheria
+localizedName: Crack
+sector: 1
+difficulty: 2
+enemyBase: false
+captureWave: 5
+research: {
+  parent: astheria-00
+  objectives: [
+    {
+      type: SectorComplete
+      preset: astheria-00
+    }
+  ]
+}
+rules: {
+  startingItems: [
+    copperc/120
+    iron/80
+    coalc/60
+    leadc/40
+  ]
+}

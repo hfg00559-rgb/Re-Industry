@@ -1,0 +1,62 @@
+{
+  localizedName: moon-asth
+  alwaysUnlocked: false
+  accessible: true
+  visible: true
+  prebuildBase: false
+  hasAtmosphere: false
+  bloom: true
+  drawOrbit: true
+  minZoom: 0.7
+  radius: 0.1
+  orbitRadius: 2
+  startSector: 0
+  sectorSeed: 6969
+  defaultCore: core-nucleus
+  parent: astheria
+  solarSystem: sun
+  iconColor: aa7733
+
+  mesh: [
+    {
+      type: NoiseMesh
+      divisions: 4
+      seed: 42
+      radius: 0.1
+      color1: 555555
+      color2: 434343
+      octaves: 7
+      persistence: 0.2
+    }
+    {
+      type: NoiseMesh
+      divisions: 4
+      radius: 0.09999
+      seed: 101
+      color1: 626262
+      color2: 595959
+      octaves: 7
+      persistence: 0.3
+    }
+	{
+      type: NoiseMesh
+      divisions: 4
+      radius: 0.11
+      seed: 101
+      color1: afb8b2
+      color2: 808480
+      octaves: 7
+      persistence: 0.3
+    }
+	{
+      type: NoiseMesh
+      divisions: 4
+      radius: 0.08999
+      seed: 101
+      color1: b2babf
+      color2: 5d6672
+      octaves: 7
+      persistence: 0.3
+    }
+  ]
+}

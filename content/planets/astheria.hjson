@@ -1,0 +1,118 @@
+{
+  "localizedName": "Astheria",
+  "alwaysUnlocked": true,
+  "accessible": true,
+  "visible": true,
+  "prebuildBase": false,
+  "hasAtmosphere": true,
+  "atmosphereRadIn": 0,
+  "atmosphereRadOut": 0.3,
+  "bloom": true,
+  "drawOrbit": true,
+  "minZoom": 1,
+  "radius": 1,
+  "orbitRadius": 25,
+  "startSector": 0,
+  "sectorSeed": 6969,
+  "sectorSize": 1,
+  "defaultCore": "core-nucleus",
+  "parent": "sun",
+  "solarSystem": "sun",
+  "iconColor": "82a467",
+  "atmosphereColor": "82a467",
+  "mesh": [
+    {
+      "type": "NoiseMesh",
+      "divisions": 4,
+      "seed": 1111,
+      "radius": 1,
+      "color1": "472d22",
+      "color2": "321d1a",
+      "octaves": 3,
+      "persistence": 1
+    },
+    {
+      "type": "NoiseMesh",
+      "divisions": 4,
+      "radius": 1,
+      "seed": 52,
+      "color1": "62686b",
+      "color2": 303436,
+      "octaves": 3,
+      "persistence": 1
+    },
+    {
+      "type": "NoiseMesh",
+      "divisions": 4,
+      "radius": 1,
+      "seed": 42,
+      "color1": "252d25",
+      "color2": "2c362c",
+      "octaves": 3,
+      "persistence": 1
+    },
+    {
+      "type": "NoiseMesh",
+      "divisions": 4,
+      "radius": 1,
+      "seed": 67,
+      "color1": "877d72",
+      "color2": "675b53",
+      "octaves": 3,
+      "persistence": 1
+    }
+  ],
+  "cloudMesh": [
+    {
+      "type": "HexSkyMesh",
+      "planet": "asthosus",
+      "speed": 1.21,
+      "radius": 0.1,
+      "divisions": 6,
+      "color": "eafffd7e",
+      "octaves": 3,
+      "persistence": 0.3,
+      "scl": 1,
+      "thresh": 0.6
+    },
+    {
+      "type": "HexSkyMesh",
+      "planet": "asthosus",
+      "speed": 1.01,
+      "radius": 0.11,
+      "divisions": 6,
+      "color": "eafffd7e",
+      "octaves": 3,
+      "persistence": 0.4,
+      "scl": 0.9,
+      "thresh": 0.6
+    },
+    {
+      "type": "HexSkyMesh",
+      "planet": "asthosus",
+      "speed": 0.891,
+      "radius": 0.091,
+      "divisions": 6,
+      "color": "eafffd7e",
+      "octaves": 3,
+      "persistence": 0.5,
+      "scl": 1.1,
+      "thresh": 0.6
+    }
+  ],
+  "generator": {
+    "octaves": 3,
+    "persistence": 0.52,
+    "scale": 22,
+    "mag": 0.721,
+    "thresh": 1.152,
+    "min": 100,
+    "max": 100,
+    "radMin": 220,
+    "radMax": 600,
+    "iceChance": 0.51,
+    "carbonChance": 0.32,
+    "berylChance": 0,
+    "ferricChance": 0.26
+  }
+}

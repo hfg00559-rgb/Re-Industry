@@ -1,0 +1,15 @@
+{
+type: material
+name: steel
+localizedName: Steel
+description: Coal and Iron alloy :p
+cost: 3.0
+color: 252435
+research: iron
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+}

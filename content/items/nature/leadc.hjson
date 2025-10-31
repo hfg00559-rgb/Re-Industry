@@ -1,0 +1,15 @@
+{
+type: material
+name: leadc
+localizedName: Lead
+description: Just Lead
+cost: 3.0
+color: 6b6a66
+research: copperc
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+}

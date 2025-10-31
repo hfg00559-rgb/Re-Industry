@@ -1,0 +1,7 @@
+planet: astheria
+localizedName: Genesis
+sector: 0
+difficulty: 2
+enemyBase: false
+captureWave: 5
+research: sectors
