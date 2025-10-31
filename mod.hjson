@@ -1,0 +1,10 @@
+{
+  name: industry
+  displayName: Re:Industry
+  author: haisenburger
+  description: Mod created by one developer :p
+  subtitle: Now with 69% more clay!
+  version: 1.0
+  minGameVersion: 147
+  main: main.js
+}
