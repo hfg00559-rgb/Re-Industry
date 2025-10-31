@@ -1,0 +1,7 @@
+{
+  name: dead-tree
+  localizedName: Dead Tree
+  type: Prop
+  variants: 2
+  size: 1
+}

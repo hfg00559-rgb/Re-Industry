@@ -1,0 +1,7 @@
+{
+  name: ironc
+  localizedName: Iron Floor
+  type: Floor
+  variants: 3
+  size: 1
+}

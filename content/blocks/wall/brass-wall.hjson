@@ -1,0 +1,12 @@
+type: wall
+name: brass-wall
+localizedName: Brass Wall
+description: Small defensive wall made of brass. Protects structures from enemy bullets.
+health: 420
+size: 1
+requirements: [brass/6]
+category: defense
+research: defense
+researchCost: [
+  iron/20
+]

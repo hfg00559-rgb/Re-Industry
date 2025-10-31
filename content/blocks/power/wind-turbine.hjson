@@ -1,0 +1,51 @@
+{
+  type: SolarGenerator
+  name: wind-turbine
+  description: Wind Turbine — generates power from sunlight, spins and flips every 180°.
+  size: 1
+  scaledHealth: 450
+  powerProduction: 0.1
+  configurable: true
+  squareSprite: false
+  category: power
+  research: {
+    parent: power
+	researchCost: [
+    brass/15
+	leadc/15
+    ]
+  }
+  requirements: [
+    brass/15
+    leadc/15
+  ]
+
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawRegion
+        suffix: -base
+      }
+      {
+        type: DrawDefault
+      }
+      {
+        type: DrawRegion
+        suffix: -rotator
+        spinSprite: true
+        rotateSpeed: 1
+      }
+      {
+        type: DrawRegion
+        suffix: -rotator-inverted
+        spinSprite: true
+        rotateSpeed: 1
+        rotationOffset: 180
+      }
+    ]
+  }
+
+  ambientSound: wind
+  ambientSoundVolume: 0.05
+}

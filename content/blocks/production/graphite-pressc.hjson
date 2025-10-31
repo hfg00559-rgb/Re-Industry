@@ -1,0 +1,32 @@
+{
+name: graphite-pressc
+localizedName: Graphite Press
+description: Press coal into graphite
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: production
+researchCost: [
+  leadc/25
+  zinc/20
+  copperc/25
+]
+craftTime: 60
+craftEffect: reactorsmoke
+outputItems: [
+graphitec/3
+]
+
+consumes: {
+items: [
+coalc/1
+]
+}
+
+requirements: [
+leadc/25
+zinc/20
+copperc/25
+]
+}

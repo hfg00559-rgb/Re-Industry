@@ -1,0 +1,5 @@
+type: OreBlock
+name: ore-copperc
+localizedName: Copper Ore
+itemDrop: copperc
+cost: 2

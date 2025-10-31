@@ -1,0 +1,32 @@
+{
+name: clay-dryer
+localizedName: Clay Dryer
+description: Dry Clay into Sand
+type: GenericCrafter
+health: 200
+size: 2
+category: crafting
+research: brass-smelter
+researchCost: [
+  leadc/25
+  zinc/20
+  copperc/25
+]
+craftTime: 60
+craftEffect: reactorsmoke
+outputItems: [
+sandc/3
+]
+
+consumes: {
+items: [
+clay/1
+]
+}
+
+requirements: [
+leadc/25
+zinc/20
+copperc/25
+]
+}

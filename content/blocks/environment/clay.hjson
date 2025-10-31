@@ -1,0 +1,8 @@
+{
+  name: clay
+  localizedName: Clay Floor
+  type: Floor
+  variants: 4
+  size: 1
+  itemDrop: clay
+}

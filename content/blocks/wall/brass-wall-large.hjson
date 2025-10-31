@@ -1,0 +1,12 @@
+type: wall
+name: brass-wall-large
+localizedName: Large Brass Wall
+description: Large defensive wall made of brass. Provides more protection.
+health: 1680
+size: 2
+requirements: [brass/24]
+category: defense
+research: defense
+researchCost: [
+  iron/80
+]

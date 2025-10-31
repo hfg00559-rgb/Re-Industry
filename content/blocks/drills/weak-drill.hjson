@@ -1,0 +1,31 @@
+type: drill
+name: weak-drill
+localizedName: Weak Drill
+description: make mini kaboom to dig ores
+size: 2
+category: production
+hardnessDrillMultiplier: 50
+research: production
+researchCost: [
+  iron/12
+]
+drillTime: 270
+hasPower: false
+tier: 3
+itemCapacity: 30
+hasLiquids: false
+researchCostMultiplier: 0.5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 14
+  strokeFrom: 1.1
+  strokeTo: 0.2
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: [
+  iron/12
+]
+squareSprite: false

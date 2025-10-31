@@ -1,0 +1,45 @@
+// content/blocks/pointer.hjson
+name: "pointer"
+localizedName: "Pointer"
+description: "First turret on Astheria."
+type: ItemTurret
+size: 2
+health: 250
+requirements: [ copperc/50, iron/30 ]
+category: turret
+research: turrets
+researchCost: [ iron/15, copperc/25 ]
+
+range: 200
+reload: 150
+inaccuracy: 5
+recoil: 1
+rotateSpeed: 5
+targetAir: true
+targetGround: true
+
+ammoTypes: {
+  copperc: {
+    type: BasicBulletType
+    width: 8
+    height: 7
+    damage: 50
+    speed: 5
+    lifetime: 40
+    pierce: true
+    frontColor: eac2a9
+    backColor: b8705c
+  }
+}
+
+maxAmmo: 12
+ammoPerShot: 1
+
+shootSound: shoot-fx1
+shootEffect: hitLaser
+smokeEffect: none
+ammoUseEffect: none
+drawer: {
+  type: DrawTurret
+  basePrefix: carbon-
+}

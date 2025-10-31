@@ -1,0 +1,18 @@
+{
+  name: rust-router
+  localizedName: Rust Router
+  type: router
+  size: 1
+  health: 80
+  itemCapacity: 10
+  requirements: [
+    iron/1
+    copperc/2
+  ]
+  category: distribution
+  research: rust-conveyor
+  researchCost: [
+  iron/5
+  copperc/4
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  name: mud-wall
+  localizedName: Mud Wall
+  type: StaticWall
+  variants: 2
+  size: 1
+}

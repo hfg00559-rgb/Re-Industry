@@ -1,0 +1,17 @@
+type: CoreBlock
+name: "Core: Aqua"
+description: "The base core of the Astheria planet."
+health: 2500
+itemCapacity: 8000
+size: 3
+unitCapModifier: 8
+unitType: core-drone
+requirements: [
+  copper/200
+]
+category: effect
+hasItems: true
+hasColor: true
+mapColor: 6F80E8
+alwaysUnlocked: true
+research: cores

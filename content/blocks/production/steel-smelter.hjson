@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: steel-smelter
+localizedName: Steel Smelter
+description: Mixes iron and coal into steel.
+health: 200
+size: 3
+category: crafting
+research: graphite-pressc
+researchCost: [
+  leadc/25
+  iron/25
+  graphitec/20
+]
+craftTime: 70
+craftEffect: reactorsmoke
+outputItems: [steel/4]
+consumes: {
+  items: [coalc/2, iron/2]
+}
+requirements: [leadc/25, graphitec/20, iron/25]

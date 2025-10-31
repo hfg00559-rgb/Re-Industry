@@ -1,0 +1,55 @@
+name: "glassier"
+localizedName: "Glassier"
+description: "Second turret on Astheria."
+type: ItemTurret
+size: 3
+health: 250
+requirements: [ copperc/50, iron/50, zinc/55 ]
+category: turret
+research: pointer
+researchCost: [ copperc/50, iron/50, zinc/55 ]
+
+range: 200
+reload: 50
+inaccuracy: 5
+recoil: 1
+rotateSpeed: 5
+targetAir: true
+targetGround: true
+
+ammoTypes: {
+  copperc: {
+    type: BasicBulletType
+    width: 8
+    height: 7
+    damage: 55
+    speed: 4.5
+    lifetime: 40
+    pierce: true
+    frontColor: eac2a9
+    backColor: b8705c
+  }
+  graphitec: {
+    type: BasicBulletType
+    width: 8
+    height: 7
+    damage: 70
+    speed: 3
+    lifetime: 40
+    pierce: true
+    frontColor: 5d6672
+    backColor: 252435
+  }
+}
+
+maxAmmo: 42
+ammoPerShot: 1
+
+shootSound: shoot-fx2
+shootEffect: hitLaser
+smokeEffect: none
+ammoUseEffect: none
+drawer: {
+  type: DrawTurret
+  basePrefix: carbon-
+}

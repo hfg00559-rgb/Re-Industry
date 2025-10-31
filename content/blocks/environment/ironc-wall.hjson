@@ -1,0 +1,7 @@
+{
+  name: ironc-wall
+  localizedName: Iron Wall
+  type: StaticWall
+  variants: 2
+  size: 1
+}

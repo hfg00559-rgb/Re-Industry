@@ -1,0 +1,7 @@
+{
+  name: tree
+  localizedName: Tree
+  type: Prop
+  variants: 2
+  size: 1
+}

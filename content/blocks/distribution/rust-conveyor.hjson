@@ -1,0 +1,17 @@
+{
+  name: rust-conveyor
+  localizedName: Rust Conveyor
+  type: Conveyor
+  size: 1
+  health: 120
+  speed: 0.08
+  itemCapacity: 4
+  requirements: [
+    iron/1
+  ]
+  category: distribution
+  research: distribution
+  researchCost: [
+  iron/5
+  ]
+}

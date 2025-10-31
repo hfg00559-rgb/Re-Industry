@@ -1,0 +1,27 @@
+{
+  name: clay-press
+  localizedName: Clay Press
+  description: Press clay, to get dirty water
+  type: GenericCrafter
+  health: 150
+  size: 3
+  category: crafting
+  research: metalglass-kilnc
+  researchCost: [
+    graphitec/25
+    metalglassc/55
+  ]
+  craftTime: 90
+  craftEffect: reactorsmoke
+  outputLiquid: dirty-water/1
+  outputItem: sandc/1
+  consumes: {
+    items: [
+      clay/3
+    ]
+  }
+  requirements: [
+    graphitec/25
+    metalglassc/55
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  name: mud
+  localizedName: Mud Floor
+  type: Floor
+  variants: 3
+  size: 1
+}

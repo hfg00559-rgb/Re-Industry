@@ -1,0 +1,5 @@
+type: OreBlock
+name: ore-coalc
+localizedName: Coal Ore
+itemDrop: coalc
+cost: 2

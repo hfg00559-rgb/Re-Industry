@@ -1,0 +1,33 @@
+{
+name: brass-smelter
+localizedName: Brass Smelter
+description: mixes copper and zinc into brass
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: graphite-pressc
+researchCost: [
+  leadc/25
+  graphitec/20
+  copperc/25
+]
+craftTime: 60
+craftEffect: reactorsmoke
+outputItems: [
+brass/3
+]
+
+consumes: {
+items: [
+copperc/1
+zinc/1
+]
+}
+
+requirements: [
+leadc/25
+graphitec/20
+copperc/25
+]
+}

@@ -1,0 +1,48 @@
+{
+name: steam-boiler
+localizedName: Steam Boiler
+description: Boils water using coal into steam
+type: GenericCrafter
+health: 150
+size: 3
+category: crafting
+research: metalglass-kilnc
+researchCost: [
+  graphitec/25
+  metalglassc/55
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+craftTime: 90
+craftEffect: reactorsmoke
+outputLiquid: steam/1
+
+consumes: {
+items: [
+coalc/1
+]
+liquids: [
+dirty-water/0.5
+]
+}
+
+requirements: [
+graphitec/25
+metalglassc/55
+]
+}

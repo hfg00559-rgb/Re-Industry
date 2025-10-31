@@ -1,0 +1,5 @@
+type: OreBlock
+name: ore-zinc
+localizedName: Zinc Ore
+itemDrop: zinc
+cost: 2

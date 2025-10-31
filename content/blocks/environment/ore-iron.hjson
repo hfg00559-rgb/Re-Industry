@@ -1,0 +1,5 @@
+type: OreBlock
+name: ore-iron
+localizedName: Iron Ore
+itemDrop: iron
+cost: 2

@@ -1,0 +1,33 @@
+{
+name: metalglass-kilnc
+localizedName: Metalglass Kiln
+description: Smelt steel and copper into metalglass
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: steel-smelter
+researchCost: [
+  iron/25
+  zinc/20
+  copperc/25
+]
+craftTime: 60
+craftEffect: reactorsmoke
+outputItems: [
+metalglassc/3
+]
+
+consumes: {
+items: [
+clay/2
+leadc/1
+]
+}
+
+requirements: [
+iron/25
+zinc/20
+copperc/25
+]
+}

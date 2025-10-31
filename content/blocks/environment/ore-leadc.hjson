@@ -1,0 +1,5 @@
+type: OreBlock
+name: ore-leadc
+localizedName: Lead Ore
+itemDrop: leadc
+cost: 2
