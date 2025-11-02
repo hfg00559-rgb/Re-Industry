@@ -65,11 +65,11 @@
   "cloudMesh": [
     {
       "type": "HexSkyMesh",
-      "planet": "asthosus",
+      "planet": "astheria",
       "speed": 1.21,
       "radius": 0.1,
       "divisions": 6,
-      "color": "eafffd7e",
+      "color": "eafffd55",
       "octaves": 3,
       "persistence": 0.3,
       "scl": 1,
@@ -77,11 +77,11 @@
     },
     {
       "type": "HexSkyMesh",
-      "planet": "asthosus",
+      "planet": "astheria",
       "speed": 1.01,
       "radius": 0.11,
       "divisions": 6,
-      "color": "eafffd7e",
+      "color": "eafffd55",
       "octaves": 3,
       "persistence": 0.4,
       "scl": 0.9,
@@ -89,11 +89,11 @@
     },
     {
       "type": "HexSkyMesh",
-      "planet": "asthosus",
+      "planet": "astheria",
       "speed": 0.891,
       "radius": 0.091,
       "divisions": 6,
-      "color": "eafffd7e",
+      "color": "eafffd55",
       "octaves": 3,
       "persistence": 0.5,
       "scl": 1.1,
@@ -110,9 +110,9 @@
     "max": 100,
     "radMin": 220,
     "radMax": 600,
-    "iceChance": 0.51,
-    "carbonChance": 0.32,
+    "iceChance": 0.25,
+    "carbonChance": 0.25,
     "berylChance": 0,
-    "ferricChance": 0.26
+    "ferricChance": 0.50
   }
 }
